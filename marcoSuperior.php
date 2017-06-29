@@ -9,7 +9,6 @@
                 <table width="908" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
                         <td width="12" height="67"><img src="images/izq_sup_degradado.gif" width="12" height="67"></td>
-                        <td width="156"><a href="index.php"><img src="images/logo.gif" width="156" height="67" border="0"></A></td>
                         <td height="67" background="images/fondo_sup_degradado.gif">
                             <!-- CABECERA SECCION CENTRAL-->
                             <table width="100%" height="67"  border="0" cellpadding="0" cellspacing="0">
@@ -34,7 +33,6 @@
                     </tr>
                     <tr bgcolor="#F0F0F0">
                         <td><!-- NO BORRAR VACIO --></td>
-                        <td><img src="images/logo_2.gif" width="156" height="26"><!-- 1965 --></td>
                         <td>
                             <table width="98%" border="0" cellspacing="0" cellpadding="2">
                                 <tr>
@@ -42,7 +40,7 @@
                                         <table width="55" border="0" align="center" cellpadding="0" cellspacing="0">
                                             <tr>
                                                 <td><a href="http://www.facebook.com/johny.alboo" target="_blank"><img src="images/facebook.gif" alt="Siguenos en facebook" width="23" height="23" border="0"></a></td>
-                                                <td><a href="http://www.elblogdeferreteriaortiz.es" target="_blank"><img src="images/blog.gif" alt="Siguenos en nuestro blog" width="23" height="23" border="0"></a></td>
+                                                <td><a href="#" target="_blank"><img src="images/blog.gif" alt="Siguenos en nuestro blog" width="23" height="23" border="0"></a></td>
                                                 <td><?php if (isset($_SESSION["oUsuario"])) { ?>
                                                     <a href="logout.php" target="_self"><img src="images/logo_cerrar_sesion.png" alt="CERRAR SESION" width="23" height="23" border="0"></a>
                                                 </td>
@@ -92,5 +90,3 @@
                             <td width="100%" align="left" valign="top">
 
                                 <!-- INICIO BANDEJON CENTRAL -->
-
-

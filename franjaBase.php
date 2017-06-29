@@ -11,10 +11,10 @@
                                     <td><img src="images/pixel_trans.gif" width="1" height="5"></td>
                                 </tr>
                                 <tr>
-                                    <td>Tel&eacute;fono tienda online: +34 680 60 74 86 </td>
+                                    <td>Tel&eacute;fono tienda online: +56 2 80 60 74 86 </td>
                                 </tr>
                                 <tr>
-                                    <td>Por email: <a href="#" class="linkamarillo">ventas@ferreteriaortiz.es</a> </td>
+                                    <td>Por email: <a href="#" class="linkamarillo">ventas@sudamericana.com</a> </td>
                                 </tr>
                                 <tr>
                                     <td>A trav&eacute;s de los tel&eacute;fonos de <a href="#" target="_blank" class="linkamarillo">Nuestras tiendas</a> </td>
