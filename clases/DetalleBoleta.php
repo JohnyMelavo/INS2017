@@ -2,7 +2,7 @@
 /**
  * Description of DetalleBoleta
  *
- * @author Jorge Muñoz
+ * @author JOMIPECA
  */
 class DetalleBoleta {
     

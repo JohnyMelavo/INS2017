@@ -3,7 +3,7 @@
 /**
  * Description of SubCategoría
  *
- * @author Jorge Muñoz
+ * @author JEB
  */
 class SubCategoría {
     

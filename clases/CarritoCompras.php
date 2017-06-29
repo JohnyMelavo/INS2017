@@ -3,7 +3,7 @@
 /**
  * Description of CarritoCompras
  *
- * @author Jorge Muñoz
+ * @author JEB
  */
 class CarritoCompras {
     

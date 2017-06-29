@@ -22,6 +22,6 @@ if (!$mail->Send()) {
     echo 'Error: ' . $mail->ErrorInfo;
 } else {
     echo 'Mensaje enviado!';
-    ?> <html> <head><meta http-equiv="Refresh" content="3;url=http://localhost:81/CSA/index.php"></head></html> <?php
+    ?> <html> <head><meta http-equiv="Refresh" content="3;url=http://localhost:8080/CSA/index.php"></head></html> <?php
 }
 ?>

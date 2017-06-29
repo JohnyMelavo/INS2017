@@ -64,12 +64,6 @@ $usr = new Cliente();
                     <td> </td>
                 </tr>  
                 <tr>
-                    <td>Desea suscribirse a nuestro boletín mensual?:</td>
-                    <td>Si<input type="radio" id="suscripcion" name="suscripcion" checked="true" >
-                        No<input type="radio" id="suscripcion" name="suscripcion"></td>
-                    <td></td>
-                </tr>  
-                <tr>
                     <td></td>  
                     <td><input id="registrar" type="submit" value="Registrar"></td>
                 </tr>
