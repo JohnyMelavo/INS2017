@@ -88,7 +88,7 @@ $cCarro = new CarritoCompras();
                 <img src="images/continuar.gif" width="13" height="13" border="0"></a> 
         </div>
         <div>
-            <input type="button" onclick="parent.location='boleta.php'" value='Descargar Resumen'>
+            <input type="button" onclick="parent.location='#'" value='Descargar Resumen'>
             <input type="button" onclick="parent.location='#'" value='Pagar'>
         </div>
     <?php } else { ?>

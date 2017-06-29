@@ -1,6 +1,6 @@
 <?php
 define("PATHAPP",$_SERVER['DOCUMENT_ROOT'].'/CSA/');
-define("PATHURL","http://localhost:81/CSA/");
+define("PATHURL","http://localhost:8080/CSA/");
 define("TITULOAPP","Super WebSite");
 ?>
 
@@ -9,8 +9,8 @@ define("TITULOAPP","Super WebSite");
  * Constantes de GMAIL
  */
 
-define('GMAIL','ferreteria.ortiz.chile@gmail.com');
-define('GNAME','No Responder Ferreteria Ortiz');
-define('GUSR','ferreteria.ortiz.chile@gmail.com');
-define('GPWD','ferreteriarook');
+define('GMAIL','libreriasudamericana@gmail.com');
+define('GNAME','No Responder - Sudamericana');
+define('GUSR','libreriasudamericana@gmail.com');
+define('GPWD','libreriasudamericana');
 ?>

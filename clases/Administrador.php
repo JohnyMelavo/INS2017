@@ -90,5 +90,33 @@ class Administrador {
         $this->spass = $spass;
     }
     
-    
+    function VerificaAdmin() { //READ DEL CRUD!
+        $db = dbconnect();
+        /* Definición del query que permitira ingresar un nuevo registro */
+        $sqlsel = "select runUsuario,nombre,apellido,sexo,fechanacimiento,email,userName,pass from administrador
+		where userName=:userName and pass=:pass";
+        /* Preparación SQL */
+        $querysel = $db->prepare($sqlsel);
+        /* Asignación de parametros utilizando bindparam */
+        $querysel->bindParam(':userName', $this->snomusuario);
+        $querysel->bindParam(':pass', $this->spass);
+
+
+        $datos = $querysel->execute();
+
+        if ($querysel->rowcount() == 1) {
+            $registro = $querysel->fetch();            
+            $this->srun = $registro['runUsuario'];
+            $this->snombre = $registro['nombre'];
+            $this->apellidos = $registro['apellido'];
+            $this->csexo = $registro['sexo'];
+            $this->dfechanacimiento = $registro['fechanacimiento'];
+            $this->semail = $registro['email'];
+            $this->snomusuario = $registro['userName'];
+            $this->spass = $registro['pass'];
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
