@@ -11,7 +11,7 @@
                                             <td height="3"><img src="images/linea_menu.gif" width="150" height="1"></td>
                                         </tr>
                                         <tr> 
-                                            <td><a href="#" class="linkgrismenu">Libros</A></td>
+                                            <td><a href="./catalogo.php" class="linkgrismenu">Listado Libros</A></td>
                                         </tr>
                                     </table>
                                 </td>
