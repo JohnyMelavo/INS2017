@@ -4,15 +4,14 @@ $usr = new Cliente();
 $srun = $_POST['run'];
 $snombre = $_POST['nombre'];
 $apellidos = $_POST['apellidos'];
-$ssexo = $_POST['genero'];
+$ssexo = $_POST['sexo'];
 $dfechanacimiento = $_POST['fecha'];
-$semail = $_POST['correo'];
-$bSuscripcion = $_POST['suscripcion'];
+$semail = $_POST['email'];
 $nTelefono = $_POST['telefono'];
+$bSuscripcion = $_POST['suscripcion'];
 $spass = md5($_POST['contraseña']);
-$usr->CreaCliente($semail, $srun, $snombre, $apellidos, $ssexo, $dfechanacimiento, $nTelefono, $bSuscripcion=="on"?true:false, $spass);
-
-include '../registromail.php';
+$usr->CreaCliente($srun, $snombre, $apellidos, $ssexo, $dfechanacimiento, $semail, $nTelefono, $bSuscripcion, $spass);
+        
 ?>
 <script>
     document.location.href = "<?= PATHURL ?>catalogo.php";

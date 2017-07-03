@@ -16,6 +16,11 @@ $usr = new Cliente();
                 private $nTelefono;
                 private $spass;
                 -->
+                <tr>                       
+                    <td>RUN:</td>
+                    <td><input name="run" id="run" type="text" required="true"></td>
+                    <td> </td>
+                </tr>
                 <tr>
                     <td>Nombre:</td>
                     <td><input name="nombre" id="nombre" type=text required="true"></td>
@@ -26,14 +31,9 @@ $usr = new Cliente();
                     <td><input name="apellidos" id="apellidos" type="text" required="true"></td>
                     <td> </td>
                 </tr>
-                <tr>                       
-                    <td>RUN:</td>
-                    <td><input name="run" id="run" type="text" required="true"></td>
-                    <td> </td>
-                </tr>
                 <tr>
                     <td>Género:</td>
-                    <td><select id="genero" name="genero" required="true">
+                    <td><select id="sexo" name="sexo" required="true">
                             <option value="">Seleccione...</option>
                             <option value="1">Mujer</option>
                             <option value="2">Hombre</option>
@@ -47,7 +47,7 @@ $usr = new Cliente();
                 </tr>  
                 <tr>
                     <td>Mail:</td>
-                    <td><input type="email" id="correo" name="correo" required="true"></td>
+                    <td><input type="email" id="email" name="email" required="true"></td>
                     <td> </td>
                 </tr>                    
                 <tr>
@@ -55,6 +55,10 @@ $usr = new Cliente();
                     <td><input type="number" id="telefono" name="telefono" required="true"></td>
                     <td> </td>
                 </tr>  
+                <tr>                
+                    <td><input name="suscripcion" id="suscripcion" type="radio" required="true"></td>
+                    <td> </td>
+                </tr>
                 <tr>
                     <td>Contraseña:</td>
                     <td><input type="password" id="contraseña" name="contraseña" required="true"></td>
